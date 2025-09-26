@@ -5,9 +5,6 @@ Proyek ini dibuat sebagai undangan pernikahan berbasis web modern, dengan desain
 
 ---
 
-## 👀 Preview
-![Preview Undangan](assets/preview.png)
-
 > ✨ Tampilan undangan digital saat diakses melalui browser.  
 > (Gunakan HP atau laptop untuk melihat pengalaman penuh 🎶📱)
 
@@ -33,44 +30,58 @@ Proyek ini dibuat sebagai undangan pernikahan berbasis web modern, dengan desain
 ---
 
 ## 📂 Struktur Proyek
-├── assets/ # Gambar, musik, dan file statis
-├── css/ # File stylesheet
-├── js/ # Script JavaScript
-├── index.html # Halaman utama undangan
-├── dashboard.html # Halaman tambahan (opsional)
-└── public/ # Hasil build siap deploy
-
+├── assets/ # Gambar, musik, dan file statis  
+├── css/ # File stylesheet  
+├── js/ # Script JavaScript  
+├── index.html # Halaman utama undangan  
+├── dashboard.html # Halaman tambahan (opsional)  
+└── public/ # Hasil build siap deploy  
 
 ---
 
 ## ⚡ Cara Menjalankan di Lokal
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/falikhnail/Undangan-Pernikahan-Falikh-Ghina.git
-   cd Undangan-Pernikahan-Falikh-Ghina
+   git clone https://github.com/falikhnail/undangan-digital-with-RestFullApi.git
+   cd undangan-digital-with-RestFullApi
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Jalankan mode development:
+   ```bash
+   npm run dev
+   ```
+   Buka di browser → http://localhost:3000
 
-*Install dependencies: npm install
-*Jalankan mode development: npm run dev -> Buka di browser → http://localhost:3000
-*Untuk build production:npm run build:public -> Hasil ada di folder public/ (siap untuk deploy ke Vercel atau GitHub Pages).
+4. Untuk build production:
+   ```bash
+   npm run build:public
+   ```
+   Hasil ada di folder `public/` (siap untuk deploy ke Vercel atau GitHub Pages).
 
-🌐 Deployment
+---
+
+## 🌐 Deployment
 
 Proyek ini dapat dideploy dengan mudah menggunakan:
 
-Vercel
- → otomatis membaca folder public/
+- **Vercel** → otomatis membaca folder `public/`
+- **GitHub Pages** → gunakan branch `gh-pages` dengan isi folder `public/`
 
-GitHub Pages → gunakan branch gh-pages dengan isi folder public/
+---
 
-💖 Tentang Proyek
+## 💖 Tentang Proyek
 
-Undangan ini adalah bentuk digitalisasi dari momen spesial kami.
-Dari perjalanan cinta yang dimulai sejak 2017 hingga akhirnya menuju jenjang pernikahan pada tahun 2025.
+Undangan ini adalah bentuk digitalisasi dari momen spesial kami.  
+Dari perjalanan cinta yang dimulai sejak 2017 hingga akhirnya menuju jenjang pernikahan pada tahun 2025.  
 Semoga undangan ini menjadi media indah untuk berbagi kebahagiaan kepada keluarga, sahabat, dan kerabat tercinta.
 
-👤 Author
+---
 
-Falikh Rifqi Nail
-📧 falikhrifqi69@gmail.com
+## 👤 Author
 
-🌐 GitHub @falikhnail
+Falikh Rifqi Nail  
+📧 falikhrifqi69@gmail.com  
+🌐 GitHub [@falikhnail](https://github.com/falikhnail)
